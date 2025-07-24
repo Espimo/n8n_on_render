@@ -4,7 +4,8 @@ services:
     env: docker
     plan: free
     autoDeploy: false
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: N8N_ENCRYPTION_KEY
         value: OsQh7z9tXqV/W5ko5ximKH+ntX2keQ9iJhr4W9pZF0E=
-    dockerfilePath: ./Dockerfile
+
